@@ -138,7 +138,7 @@ nav > ul a{
     text-align: center;
     padding-left: 292px;
     padding-right: 296px;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 
 .yt-border{
@@ -151,4 +151,66 @@ nav > ul a{
     margin-bottom: 140px;
 }
 
+/* My Current Target Section */
+.target{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-dis{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 294px;
+    margin-right: 294px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
 
+/* Target Language Design */
+.hyper-text{
+    background-color: rgb(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.language-name{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.language-para{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    
+}
+.color-learn{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.css-lan{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    
+}
+
+.java-s{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.language{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 48px;
+}
