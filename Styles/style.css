@@ -66,3 +66,60 @@ nav > ul a{
     border: none;
     margin-bottom: 45px;
 }
+
+/* Why Web Development??  */
+.why-bg-color{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px 150px;
+    border-radius: 16px;
+    padding: 80px 97px;
+}  /* Section color */
+
+.why-head{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.why-para{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Do Coding Div DEsign */
+.do-coding{
+    background-color: white;
+    border-radius: 16px;
+    padding: 58px 48px;
+    justify-content: space-between;
+    gap: 100px;
+    display: flex;
+}
+
+.do-coding-head{
+    color:rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+.do-coding-paragraph{
+    color : #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left; 
+    opacity: 0.7;
+}
+
+.do-coding-button{
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    background-color: white;
+    padding: 12px 20px;
+}
+
+.space{
+    gap: 32px;
+}
+
+
