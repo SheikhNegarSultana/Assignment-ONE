@@ -34,6 +34,7 @@ nav > ul a{
 /* Banner Design */
 .banner{
     background-image: url(../assets/Hero-bg.png);
+    
 }
 .banner-picture{
   display: block;
@@ -213,4 +214,61 @@ nav > ul a{
     margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 48px;
+}
+
+/* Designing Support Section */
+
+.support-bg{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 313px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+}
+.support-content{
+    padding: 64px 48px;
+}
+.support-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.support-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-bottom: 24px;
+}
+.feedback{
+  width: 100%;
+  padding: 19px 215px 19px 20px;
+  display: inline-block;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: rgba(13, 19, 33, 0.15);
+}
+.submit{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 180px;
+    padding-right: 180px;
 }
