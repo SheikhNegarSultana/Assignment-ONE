@@ -253,7 +253,7 @@ nav > ul a{
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
   box-sizing: border-box;
-  color: rgba(13, 19, 33, 0.15);
+  
 }
 .submit{
     background-color: white;
@@ -271,4 +271,21 @@ nav > ul a{
     margin-right: auto;
     padding-left: 180px;
     padding-right: 180px;
+}
+
+/* Designing Footer */
+.footer-head{
+    font-size: 20px;
+    font-weight: 600 ;
+}
+.social-link{
+    display: flex;
+    gap: 24px;
+}
+.footer{
+    margin-top: 80px;
+    display: flex;
+    padding: 32px 150px;
+    gap: 528px;
+    background:rgba(13, 19, 33, 0.03);
 }
